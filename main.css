@@ -1,0 +1,75 @@
+/*
+ * light blue    - #107fc9
+ * dark blue     - #0e4ead
+ * darkest blue  - #042960
+ */
+
+a {
+	color: #107fc9;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+body {
+	background: #107fc9;
+
+	font-family: 'Capita';
+}
+
+/* With thanks to
+ * https://philipwalton.github.io/solved-by-flexbox/demos/vertical-centering/.
+ */
+.aligner { display: flex; align-items: center; justify-content: center;
+
+	position: fixed;
+
+	padding: 0;
+	margin: 0;
+
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+h1 {
+	color: #107fc9;
+
+	text-align: center;
+	font-size: 48pt;
+	font-weight: bold;
+
+	margin: 0;
+}
+
+.content {
+	background: white;
+
+	max-width: 50%;
+
+	width: 500px;
+	text-align: justify;
+	/*margin: 0 auto 0 auto;*/
+	padding: 20px 40px 10px 40px;
+
+	border: 1px solid #107fc9;
+	border-radius: 12px;
+}
+
+.content p {
+	font-size: 14pt;
+}
+
+.links {
+	color: #107fc9;
+	text-align: center;
+	font-weight: bold;
+
+	font-size: 16pt;
+}
+
+.dot {
+	color: #107fc9;
+}

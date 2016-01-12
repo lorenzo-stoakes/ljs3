@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'Capita';
+	src: url('/fonts/capita.eot');
+	src: url('/fonts/capita.eot?#iefix') format('embedded-opentype'),
+	url('/fonts/capita.woff') format('woff'),
+	url('/fonts/capita.ttf') format('truetype');
+}
