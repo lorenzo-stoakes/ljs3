@@ -47,12 +47,11 @@ h1 {
 .content {
 	background: white;
 
-	max-width: 50%;
-
 	width: 500px;
 	text-align: justify;
-	/*margin: 0 auto 0 auto;*/
 	padding: 20px 40px 10px 40px;
+	/* Oh CSS. */
+	margin-left: -17px;
 
 	border: 1px solid #107fc9;
 	border-radius: 12px;
