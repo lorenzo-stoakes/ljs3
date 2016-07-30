@@ -19,21 +19,6 @@ body {
 	font-family: 'Capita';
 }
 
-/* With thanks to
- * https://philipwalton.github.io/solved-by-flexbox/demos/vertical-centering/.
- */
-.aligner { display: flex; align-items: center; justify-content: center;
-
-	position: fixed;
-
-	padding: 0;
-	margin: 0;
-
-	top: 0;
-	width: 100%;
-	height: 100%;
-}
-
 h1 {
 	color: #107fc9;
 
@@ -45,13 +30,23 @@ h1 {
 }
 
 .content {
+	position: absolute;
+
+	top: 50%;
+	left: 50%;
+
 	background: white;
 
 	width: 500px;
+	height: 472px;
+
+	/* Oh CSS. */
+	margin-left: -291px;
+	margin-top: -252px;
+
 	text-align: justify;
 	padding: 20px 40px 10px 40px;
-	/* Oh CSS. */
-	margin-left: -17px;
+
 
 	border: 1px solid #107fc9;
 	border-radius: 12px;
