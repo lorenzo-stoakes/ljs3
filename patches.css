@@ -5,10 +5,10 @@
 
 	background: white;
 
-	width: 800px;
+	width: 600px;
 
 	/* Oh CSS. */
-	margin-left: -441px;
+	margin-left: -341px;
 	margin-top: 8px;
 
 	text-align: justify;
@@ -28,7 +28,10 @@
 }
 
 .content-patches table {
-	width: 840px;
+	/* Oh CSS. */
+	margin-left: -19px;
+
+	width: 640px;
 }
 
 .content-patches td {
