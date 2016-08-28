@@ -1,0 +1,46 @@
+.content-patches {
+	position: absolute;
+
+	left: 50%;
+
+	background: white;
+
+	width: 800px;
+
+	/* Oh CSS. */
+	margin-left: -441px;
+	margin-top: 8px;
+
+	text-align: justify;
+	padding: 20px 40px 30px 40px;
+
+	border: 1px solid #107fc9;
+	border-radius: 12px;
+}
+
+.content-patches {
+	font-size: 14pt;
+}
+
+.content-patches h2 {
+	font-size: 16pt;
+	text-align: center;
+}
+
+.content-patches table {
+	width: 840px;
+}
+
+.content-patches td {
+	text-align: center;
+	padding-top: 0.2em;
+	padding-bottom: 0.4em;
+
+	font-size: 12pt;
+ }
+
+.date {
+	font-size: 10pt;
+	font-weight: bold;
+	text-transform: uppercase;
+ }
