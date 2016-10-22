@@ -5,10 +5,10 @@
 
 	background: white;
 
-	width: 600px;
+	width: 640px;
 
 	/* Oh CSS. */
-	margin-left: -341px;
+	margin-left: -361px;
 	margin-top: 8px;
 	margin-bottom: 18px;
 
@@ -20,19 +20,19 @@
 }
 
 .content-patches {
-	font-size: 14pt;
+	font-size: 12pt;
 }
 
 .content-patches h2 {
-	font-size: 16pt;
+	font-size: 14pt;
 	text-align: center;
 }
 
 .content-patches table {
 	/* Oh CSS. */
-	margin-left: -19px;
+	margin-left: -29px;
 
-	width: 640px;
+	width: 700px;
 }
 
 .content-patches td {
@@ -40,11 +40,11 @@
 	padding-top: 0.2em;
 	padding-bottom: 0.4em;
 
-	font-size: 12pt;
+	font-size: 11pt;
  }
 
 .date {
-	font-size: 10pt;
+	font-size: 9pt;
 	font-weight: bold;
 	text-transform: uppercase;
  }
