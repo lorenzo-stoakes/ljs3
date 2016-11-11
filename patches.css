@@ -48,3 +48,15 @@
 	font-weight: bold;
 	text-transform: uppercase;
  }
+
+.col-1 {
+	width: 80px;
+}
+
+.col-2 {
+	width: 550px;
+}
+
+.col-3 {
+	width: 90px;
+}
